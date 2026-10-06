@@ -1,0 +1,71 @@
+{
+  "info": {
+    "_postman_id": "bmkg-earthquake-api-2026",
+    "name": "BMKG QuakeWatch API Collection",
+    "description": "Koleksi endpoint BMKG TEWS (Tsunami and Earthquake Early Warning System) untuk pengujian respon JSON, validasi struktur data model, dan integrasi Retrofit 2 pada aplikasi Android BMKG QuakeWatch.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://data.bmkg.go.id",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "1. GET Gempa Terkini M ≥ 5.0 (Resmi BMKG)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Android; Mobile)"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/DataMKG/TEWS/gempaterkini.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "DataMKG",
+            "TEWS",
+            "gempaterkini.json"
+          ]
+        },
+        "description": "Mengambil daftar 15 gempa bumi terkini dengan magnitudo 5.0 ke atas di seluruh wilayah Indonesia dari endpoint resmi BMKG TEWS."
+      },
+      "response": []
+    },
+    {
+      "name": "2. GET Gempa Dirasakan (Alternatif BMKG)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/DataMKG/TEWS/gempadirasakan.json",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "DataMKG",
+            "TEWS",
+            "gempadirasakan.json"
+          ]
+        },
+        "description": "Endpoint sekunder BMKG yang mencatat gempa-gempa bumi yang dirasakan oleh masyarakat di daratan."
+      },
+      "response": []
+    }
+  ]
+}
