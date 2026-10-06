@@ -5,7 +5,7 @@
 # BMKG QuakeWatch: Katalog & Monitoring Gempa Terkini
 > Aplikasi Mobile Android Modern untuk Katalogisasi, Monitoring Seismik Terkini, dan Deteksi Potensi Tsunami berbasis Jetpack Compose Material 3, REST API BMKG TEWS, dan Arsitektur MVVM.
 
-[![Release](https://img.shields.io/badge/RELEASE-V1.0.0-2979FF?style=for-the-badge&logo=github)](https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1)
+[![Release](https://img.shields.io/badge/RELEASE-V1.0.0-2979FF?style=for-the-badge&logo=github)](https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1_ShiftI)
 [![Platform](https://img.shields.io/badge/PLATFORM-ANDROID%2010%2B-00C853?style=for-the-badge&logo=android)](https://developer.android.com)
 [![Language](https://img.shields.io/badge/LANGUAGE-KOTLIN%202.0-7C4DFF?style=for-the-badge&logo=kotlin)](https://kotlinlang.org)
 
@@ -14,7 +14,7 @@
 [![Networking](https://img.shields.io/badge/NETWORKING-RETROFIT%202-00BFA5?style=for-the-badge)](https://square.github.io/retrofit/)
 
 [![Architecture](https://img.shields.io/badge/ARCHITECTURE-MVVM-FF9100?style=for-the-badge&logo=android)](https://developer.android.com/topic/architecture)
-[![Shift](https://img.shields.io/badge/PAKET-PAKET%201%20GEMPA-D50000?style=for-the-badge)](https://github.com/surungmanalu)
+[![Shift](https://img.shields.io/badge/SHIFT-SHIFT%20I-D50000?style=for-the-badge)](https://github.com/surungmanalu)
 [![License](https://img.shields.io/badge/LICENSE-MIT-00E676?style=for-the-badge)](LICENSE)
 
 </div>
@@ -22,12 +22,13 @@
 ## 👤 Identitas Praktikan
 - **Nama Lengkap:** Surung Nicholas Manalu
 - **NIM:** H1D024017
+- **Shift:** Shift I
 - **Program Studi:** S1 Teknik Informatika
 - **Fakultas:** Teknik
 - **Instansi:** Universitas Jenderal Soedirman (UNSOED)
 - **Tugas Responsi:** Paket 1 — Aplikasi Katalog dan Monitoring Gempa BMKG
 - **Paket Aplikasi (Package Name):** `com.example.myapplication`
-- **Repository GitHub:** [https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1](https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1)
+- **Repository GitHub:** [https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1_ShiftI](https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1_ShiftI)
 
 ---
 
@@ -182,10 +183,10 @@ Koleksi Postman resmi disertakan pada akar proyek:
 2. **Langkah Instalasi & Eksekusi:**
    ```bash
    # 1. Clone repository
-   git clone https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1.git
+   git clone https://github.com/surungmanalu/H1D024017_ResponsiMobile_Paket1_ShiftI.git
 
    # 2. Masuk ke direktori
-   cd H1D024017_ResponsiMobile_Paket1
+   cd H1D024017_ResponsiMobile_Paket1_ShiftI
 
    # 3. Jalankan unit test untuk memastikan integritas logika
    ./gradlew test
